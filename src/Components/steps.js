@@ -1,4 +1,5 @@
 import React from 'react'
+import iPhonelogo from '../../resources/img/app-iPhone.png'
 
 export default function steps() {
     return (
@@ -8,7 +9,7 @@ export default function steps() {
             </div>
             <div className="row">
                 <div className="col span-1-of-2 steps-box">
-                    <img src="../../resources/img/app-iPhone.png" alt="TorontoEats app on iPhone" className="app-screen js--wp-2"/>
+                    <img src={iPhonelogo} alt="TorontoEats app on iPhone" className="app-screen js--wp-2"/>
                 </div>
                 <div className="col span-1-of-2 steps-box">
                     <div className="works-step clearfix">
